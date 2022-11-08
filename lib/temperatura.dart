@@ -8,7 +8,7 @@ class TelaTemperatura extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Container(
-          color: const Color.fromARGB(255, 171, 157, 212),
+          color: const Color.fromARGB(255, 83, 76, 146),
           child: const Center(
             child: Text(
               "Conversor de Temperatura",
