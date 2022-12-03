@@ -45,25 +45,6 @@ class TempState extends State<TelaTemperatura> {
       padding: const EdgeInsets.all(15.0),
       child: Row(
         children: <Widget>[
-          //Text("Choose Fahrenheit or Celsius"),
-          //Switch(
-          //  value: fOrC,
-          //  onChanged: (e) {
-          //    setState(() {
-          //      fOrC = !fOrC;
-          //    });
-          //  },
-          //)
-
-          //Checkbox(
-          //  value: fOrC,
-          //  onChanged: (e) {
-          //    setState(() {
-          //      fOrC = !fOrC;
-          //    });
-          //  },
-          //),
-
           const Text("F"),
           Radio<bool>(
               groupValue: fOrC,
