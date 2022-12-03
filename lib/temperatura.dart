@@ -36,7 +36,6 @@ class TempState extends State<TelaTemperatura> {
       ),
       textAlign: TextAlign.center,
     );
-
     AppBar appBar = AppBar(
       title: const Text("Temperature Calculator"),
     );
